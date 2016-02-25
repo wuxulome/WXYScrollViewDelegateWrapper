@@ -1,34 +1,32 @@
-# WXYScrollViewDelegateWrapper
+WXYScrollViewDelegateWrapper
+==============
 
-[![Version](https://img.shields.io/cocoapods/v/WXYScrollViewDelegateWrapper.svg?style=flat)](http://cocoapods.org/pods/WXYScrollViewDelegateWrapper)
-[![License](https://img.shields.io/cocoapods/l/WXYScrollViewDelegateWrapper.svg?style=flat)](http://cocoapods.org/pods/WXYScrollViewDelegateWrapper)
-[![Platform](https://img.shields.io/cocoapods/p/WXYScrollViewDelegateWrapper.svg?style=flat)](http://cocoapods.org/pods/WXYScrollViewDelegateWrapper)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/WXYScrollViewDelegateWrapper/master/LICENSE)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/WXYScrollViewDelegateWrapper.svg?style=flat)](http://cocoapods.org/?q=WXYScrollViewDelegateWrapper)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/WXYScrollViewDelegateWrapper.svg?style=flat)](http://cocoapods.org/?q=WXYScrollViewDelegateWrapper)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
-Use runtime to solve the crash that UIScrollView’s delegate is assign property in old SDK
+Installation
+==============
 
-## Usage
+### CocoaPods
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+1. Add `pod "WXYScrollViewDelegateWrapper"` to your Podfile.
+2. Run `pod install` or `pod update`.
 
-## Requirements
+### Manually
+
+1. Download all the files in the `WXYScrollViewDelegateWrapper` subdirectory.
+2. Add the source files to your Xcode project.
+
+Requirements
+==============
 * Compatible with iOS 6 or later.
 
-## Installation
-
-WXYScrollViewDelegateWrapper is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "WXYScrollViewDelegateWrapper"
-```
-
-## Author
-
+Author
+==============
 wuxu, wuxulome@gmail.com
 
-## License
-
-WXYScrollViewDelegateWrapper is available under the MIT license. See the LICENSE file for more info.
-
-
-
+License
+==============
+WXYScrollViewDelegateWrapper is provided under the MIT license. See LICENSE file for details.
