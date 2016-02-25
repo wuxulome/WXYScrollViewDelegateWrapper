@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = "WXYScrollViewDelegateWrapper"
   s.version          = "0.1.0"
-  s.summary          = “Use runtime to solve the crash that UIScrollView’s delegate is assign property in old SDK”
+  s.summary          = "Use runtime to solve the crash that UIScrollView’s delegate is assign property in old SDK"
 
-  s.description      = “Sometimes we get UIKit crash like ‘[UIScrollView(UIScrollViewInternal) _delegateScrollViewAnimationEnded]’. The reason is  UIScrollView’s delegate is assign property in old SDK. So we can wrap this property use our new object.”
+  s.description      = "Sometimes we get UIKit crash like ‘[UIScrollView(UIScrollViewInternal) _delegateScrollViewAnimationEnded]’. The reason is  UIScrollView’s delegate is assign property in old SDK. So we can wrap this property use our new object."
 
   s.homepage         = "https://github.com/wuxulome/WXYScrollViewDelegateWrapper"
   s.license          = { :type => "MIT", :file => "LICENSE" }
